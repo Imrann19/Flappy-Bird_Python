@@ -15,7 +15,7 @@ La difficulté augmente progressivement : plus le temps passe, plus la vitesse d
 
 ---
 
-## Anglais
+## English
 
 ### Description
 
