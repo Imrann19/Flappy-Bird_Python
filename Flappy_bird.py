@@ -75,7 +75,7 @@ def print_score():
 def print_flappy():
     text = flappy_font.render("Flappy bird", True, (255, 128, 0))
     screen.blit(text, (150, 200))
-    text = flappy_font_2.render("Appuyé sur espace pour commençer", True, (255, 128, 0))
+    text = flappy_font_2.render("Press Space bar to start", True, (255, 128, 0))
     screen.blit(text, (50, 300))
 
 def check_overlap_x(x1, x2, xp1, xp2):
@@ -137,7 +137,7 @@ def game_over():
     s = str(score)
     text = score_font.render("Ton score: " + s, True, (255, 128, 0))
     screen.blit(text, (200, 400))
-    text = exit_font.render("Appuyé sur ESPACE pour recommencer", True, (255, 128, 0))
+    text = exit_font.render("Press Space bar to restart", True, (255, 128, 0))
     screen.blit(text, (145, 450))
 
 def new_empty_block(i):
@@ -237,3 +237,4 @@ while loop:
     pygame.display.flip()
 
 pygame.quit()
+
